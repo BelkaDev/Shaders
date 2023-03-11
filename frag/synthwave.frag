@@ -2,7 +2,9 @@ precision mediump float;
 
 uniform vec3 iResolution;
 uniform float iGlobalTime;
+uniform float iTime;
 uniform vec4 iMouse;
+
 
 uniform sampler2D texture;
 
