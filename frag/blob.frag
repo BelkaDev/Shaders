@@ -1,3 +1,12 @@
+precision mediump float;
+
+uniform vec3 iResolution;
+uniform float iGlobalTime;
+uniform vec4 iMouse;
+
+uniform sampler2D texture;
+
+
 float opSmoothUnion( float d1, float d2, float k )
 {
     float h = clamp( 0.5 + 0.5*(d2-d1)/k, 0.0, 1.0 );
